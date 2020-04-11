@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG,CAAC,KAAK,CCGd,OAAiB;EDF3B,OAAO,EAAE,IAAI;CAChB;;AAED,AAAA,MAAM,AAAA,MAAM,CAAC;EACT,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "Dropdown.scss",
+        "../SCSS/variables.scss"
+    ],
+    "names": [],
+    "file": "Dropdown.css"
+}

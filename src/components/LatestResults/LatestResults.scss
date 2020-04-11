@@ -1,0 +1,86 @@
+@import '../SCSS/variables.scss';
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+    tbody {
+
+        tr:hover {
+            background-color: $lightGrey; 
+            cursor: context-menu;
+        }
+
+        tr {
+            text-align: left;
+            transition: all .2s ease-in-out;
+
+            th {
+                height: 60px;
+                padding-left: 25px;
+                background-color: $primaryBlue;
+                color: $white;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+
+            td {
+                text-align: center;
+
+                img {
+                    width: 20px;
+                }
+            }
+
+            .date {
+                width: 14%;
+                text-align: left;
+                padding-left: 25px;
+                color: $medEmphasis;
+                font-size: .9em;
+            }
+
+            .name {
+                width: 24%;
+            }    
+
+            .home-name {
+                text-align: right;
+                padding-right: 2%;
+            }
+
+            .away-name {
+                text-align: left;
+                padding-left: 2%;
+            }
+            
+            .logo {
+                width: 4%;
+            }
+
+            .score {
+                width: 4%;
+            }
+
+            .home-score {
+                text-align: right;
+            }
+
+            .away-score {
+                text-align: left;
+            }
+
+            .hyphen {
+                width: 3%;
+            }
+
+            .stadium {
+                width: 19%;
+                text-align: left;
+                color: $medEmphasis;
+                font-size: .9em;
+            }
+        }
+    }
+}

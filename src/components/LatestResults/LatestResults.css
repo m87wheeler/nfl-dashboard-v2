@@ -1,0 +1,84 @@
+table {
+  width: 80%;
+  border-collapse: collapse;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+table tbody tr:hover {
+  background-color: #f5f5f6;
+  cursor: context-menu;
+}
+
+table tbody tr {
+  text-align: left;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+table tbody tr th {
+  height: 60px;
+  padding-left: 25px;
+  background-color: #6a5bcd;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+table tbody tr td {
+  text-align: center;
+}
+
+table tbody tr td img {
+  width: 20px;
+}
+
+table tbody tr .date {
+  width: 14%;
+  text-align: left;
+  padding-left: 25px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: .9em;
+}
+
+table tbody tr .name {
+  width: 24%;
+}
+
+table tbody tr .home-name {
+  text-align: right;
+  padding-right: 2%;
+}
+
+table tbody tr .away-name {
+  text-align: left;
+  padding-left: 2%;
+}
+
+table tbody tr .logo {
+  width: 4%;
+}
+
+table tbody tr .score {
+  width: 4%;
+}
+
+table tbody tr .home-score {
+  text-align: right;
+}
+
+table tbody tr .away-score {
+  text-align: left;
+}
+
+table tbody tr .hyphen {
+  width: 3%;
+}
+
+table tbody tr .stadium {
+  width: 19%;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: .9em;
+}
+/*# sourceMappingURL=LatestResults.css.map */

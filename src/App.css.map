@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,QAAQ;EACrB,SAAS,EAAE,IAAI;EACf,KAAK,ECLM,mBAAkB;CDchC;;AAZD,AAKI,IALA,CAKA,EAAE,EALN,IAAI,CAKI,EAAE,EALV,IAAI,CAKQ,EAAE,EALd,IAAI,CAKY,EAAE,EALlB,IAAI,CAKgB,EAAE,EALtB,IAAI,CAKoB,EAAE,CAAC;EACnB,KAAK,ECRE,mBAAkB;CDS5B;;AAPL,AASI,IATA,CASA,MAAM,CAAC;EACH,gBAAgB,ECNhB,KAAkB;CDOrB",
+    "sources": [
+        "App.scss",
+        "components/SCSS/variables.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}

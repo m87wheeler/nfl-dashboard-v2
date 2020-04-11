@@ -1,0 +1,10 @@
+select {
+  border: none;
+  border-bottom: 3px solid #6a5bcd;
+  padding: 10px;
+}
+
+select:focus {
+  outline: none;
+}
+/*# sourceMappingURL=Dropdown.css.map */
