@@ -1,0 +1,20 @@
+.stat-card {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.stat-card h6 {
+  font-size: .9em;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+/*# sourceMappingURL=QuickStat.css.map */

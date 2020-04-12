@@ -1,5 +1,6 @@
 import React from 'react'
 import './PopupWindow.css'
+import Button from '../Button/Button'
 
 export default class PopupWindow extends React.Component {
 
@@ -14,8 +15,22 @@ export default class PopupWindow extends React.Component {
                     <img src={this.props.teamLogo} alt={this.props.title} />
                     <span>{this.props.title}</span>
                 </h1>
-                <h4>Team Biography</h4>
-                <p>{this.props.teamBio}</p>
+                <div className='buttons'>
+                    <Button 
+                        className='active'
+                        text='Team Biography' 
+                        action={console.log('Team Bio')}
+                    />
+                    <Button 
+                        className={''}
+                        text='Stadium Info'
+                        action={console.log('Stadium Info')}
+                    />
+                </div>
+                <div className='dynamic-content'>
+                    <p>{this.props.teamBio}</p>
+                    <img className='team-jersey' src={this.props.teamJersey} alt='Team Jersey' />
+                </div>
             </div>
         )
     }

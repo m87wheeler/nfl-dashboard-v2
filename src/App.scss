@@ -1,7 +1,6 @@
 @import './components/SCSS/variables.scss';
 
 #app {
-    display: block;
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -12,8 +11,4 @@
     font-size: 16px;
     color: $highEmphasis;
     background-color: $primaryBlue;
-
-    h1, h2, h3, h4, h5, h6 {
-        color: $highEmphasis;
-    }
 }

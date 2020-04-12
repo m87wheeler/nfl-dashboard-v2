@@ -48,29 +48,60 @@
 
     h1 {
         img {
-            position: absolute;
-            top: 40px;
-            left: 30px;
+            margin-top: 40px;
+            margin-left: 5%;
             max-height: 15vh;
         }
 
         span {
             display: none;
         }
+    } 
+
+    .buttons {
+        display: inline-flex;
+        width: 20vw;
+        margin-left: 5%;
+
+        button {
+            background-color: $white;
+            color: $primaryBlue;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+
+        }
+
+        button:hover {
+            outline: none;
+            color: $primaryRed;
+        }
+
+        button.active {
+            background-color: $primaryBlue;
+            color: $white;
+        }
     }
 
-    h4 {
-        margin-top: 25vh;
-        margin-left: calc(5% + 10px);
-    }   
+    .dynamic-content {
+        display: flex;
+        width: 100%;
+        height: 58%;
 
-    p {
-        overflow-y: scroll;
-        width: 90%;
-        height: 50%;
-        margin-left: 5%;
-        font-size: .85em;
-        line-height: 1.2em;
-        padding: 0 10px;
+        p {
+            overflow-y: scroll;
+            height: 80%;
+            width: 60%;
+            margin-left: 5%;
+            margin-top: -11.5px;
+            font-size: .85em;
+            line-height: 1.2em;
+            padding: 3vh 1vw;
+            border-top: 5px solid $primaryBlue;
+        }
+
+        img {
+            height: 80%;
+            padding-left: 2%;
+        }
     }
 }

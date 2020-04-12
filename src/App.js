@@ -109,11 +109,26 @@ class App extends React.Component {
             teamId={this.state.currentTeamId}
             stadium={this.state.currentTeamObj.strStadium}
           />
-          <div className='quick-stat-container'>
-            <QuickStat 
-              statTitle={''}
-              statData={''}
-            />
+          <div className='quick-stats'>
+            <h3>Quick Stats</h3>
+            <div className='stat-cards-container'>
+                  <QuickStat 
+                      statTitle={'Wins/Losses'}
+                      statData={''}
+                    />
+                  <QuickStat 
+                    statTitle={'DVOA'}
+                    statData={''}
+                  />
+                  <QuickStat 
+                    statTitle={'Points for/against'}
+                    statData={''}
+                  />
+                  <QuickStat 
+                    statTitle={'Yards per drive'}
+                    statData={''}
+                  />
+            </div>
           </div>
         </MainContent>
         <PopupWindow 
@@ -121,6 +136,7 @@ class App extends React.Component {
           title={this.state.currentTeamObj.strTeam}
           teamLogo={this.state.currentTeamObj.strTeamLogo}
           teamBio={this.state.currentTeamObj.strDescriptionEN}
+          teamJersey={this.state.currentTeamObj.strTeamJersey}
           action={this.handlePopup}
         />
         <PopupWindow 

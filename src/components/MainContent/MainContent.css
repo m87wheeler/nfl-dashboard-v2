@@ -12,9 +12,45 @@
   display: grid;
   -ms-grid-columns: (1fr)[8];
       grid-template-columns: repeat(8, 1fr);
-  -ms-grid-rows: (1fr)[6];
-      grid-template-rows: repeat(6, 1fr);
+  -ms-grid-rows: (1fr)[7];
+      grid-template-rows: repeat(7, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+}
+
+.main-content .quick-stats {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 8;
+  grid-column: 1 / span 8;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 2;
+  grid-row: 6 / span 2;
+  padding-right: 10px;
+}
+
+.main-content .quick-stats h3 {
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.main-content .quick-stats .stat-cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: inherit;
+  background-color: #003069;
+}
+
+.main-content table {
+  -webkit-box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
 }
 /*# sourceMappingURL=MainContent.css.map */

@@ -10,6 +10,8 @@
       grid-template-columns: 1fr;
   -ms-grid-rows: (1fr)[8];
       grid-template-rows: repeat(8, 1fr);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .sidebar .sidebar-nav {

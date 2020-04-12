@@ -17,4 +17,8 @@ button:hover {
   background-color: white;
   cursor: pointer;
 }
+
+button:focus {
+  outline: none;
+}
 /*# sourceMappingURL=Button.css.map */
