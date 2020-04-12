@@ -1,0 +1,73 @@
+.popup {
+  position: fixed;
+  top: 14vh;
+  left: 30vw;
+  width: 64vw;
+  height: 78vh;
+  background-color: white;
+  z-index: 99999;
+  border: 5px solid #003069;
+  outline: 5px solid #d60303;
+}
+
+.popup .close-window {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.popup .close-window .bar {
+  position: absolute;
+  top: 45%;
+  display: block;
+  width: 50px;
+  height: 5px;
+  background-color: #003069;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.popup .close-window .bar1 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.popup .close-window .bar2 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.popup .close-window:hover .bar {
+  background-color: #d60303;
+}
+
+.popup h1 img {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  max-height: 15vh;
+}
+
+.popup h1 span {
+  display: none;
+}
+
+.popup h4 {
+  margin-top: 25vh;
+  margin-left: calc(5% + 10px);
+}
+
+.popup p {
+  overflow-y: scroll;
+  width: 90%;
+  height: 50%;
+  margin-left: 5%;
+  font-size: .85em;
+  line-height: 1.2em;
+  padding: 0 10px;
+}
+/*# sourceMappingURL=PopupWindow.css.map */

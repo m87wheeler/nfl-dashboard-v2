@@ -1,0 +1,20 @@
+button {
+  width: 70%;
+  height: auto;
+  font-size: 1em;
+  padding: 10px 0;
+  margin-bottom: 1.5vh;
+  background-color: #003069;
+  color: white;
+  border: none;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+button:hover {
+  outline: 1px solid #003069;
+  color: #003069;
+  background-color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Button.css.map */

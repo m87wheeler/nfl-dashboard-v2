@@ -1,0 +1,25 @@
+.header-banner {
+  position: fixed;
+  width: 72.5vw;
+  height: 12.1vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  background-color: #003069;
+}
+
+.header-banner .nfl-logo-container {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / span 1;
+  display: inline-block;
+  height: inherit;
+  text-align: center;
+}
+
+.header-banner .nfl-logo-container img {
+  height: 95%;
+  margin-top: 1%;
+}
+/*# sourceMappingURL=Header.css.map */

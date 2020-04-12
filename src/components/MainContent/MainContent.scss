@@ -1,0 +1,18 @@
+@import '../SCSS/variables.scss';
+
+.main-content {
+    grid-area: main;
+    width: calc(100% - 10px);
+    margin: 0;
+    margin-left: 10px;
+    min-height: 100vh;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: $primaryBlue;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}

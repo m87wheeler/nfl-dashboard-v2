@@ -1,0 +1,21 @@
+.sidebar {
+  width: 97%;
+  height: 100%;
+  margin-left: 3%;
+  grid-area: sidebar;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: (1fr)[8];
+      grid-template-rows: repeat(8, 1fr);
+}
+
+.sidebar .sidebar-nav {
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 2;
+  grid-row: 7 / span 2;
+  text-align: center;
+}
+/*# sourceMappingURL=Sidebar.css.map */

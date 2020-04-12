@@ -1,0 +1,37 @@
+@import '../SCSS/variables.scss';
+
+.countdown {
+    color: $white;
+    height: inherit;
+    width: 80%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 0;
+
+    div {
+        text-align: center;
+        height: inherit;
+
+        p {
+            margin: 0;
+            margin-top: 10px;
+        }
+
+        p:nth-of-type(1) {
+            font-size: 2em;
+            padding: .2em;
+            outline: .2em solid $primaryBlue;
+            background-color: $primaryRed;
+            border-radius: 2px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .24), 
+                        0 1px 2px rgba(0, 0, 0, .48);
+        }
+
+        p:nth-of-type(2) {
+            font-size: .75em;
+        }
+    }
+}

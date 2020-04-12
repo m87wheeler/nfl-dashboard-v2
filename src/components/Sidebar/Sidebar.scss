@@ -1,0 +1,17 @@
+@import '../SCSS/variables.scss';
+
+.sidebar {
+    width: 97%;
+    height: 100%;
+    margin-left: 3%;
+    grid-area: sidebar;
+    background-color: $white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+
+    .sidebar-nav {
+        grid-row: 7 / span 2;
+        text-align: center;
+    }
+}

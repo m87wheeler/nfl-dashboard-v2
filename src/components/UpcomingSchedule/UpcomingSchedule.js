@@ -1,7 +1,7 @@
 import React from 'react'
-import './LatestResults.css'
+import './UpcomingSchedule.css'
 
-export default class LatestResults extends React.Component {
+export default class UpcomingSchedule extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -13,10 +13,10 @@ export default class LatestResults extends React.Component {
 
     // fetches from API on call with teamId as parameter
     async fetchData(teamId) {
-        const response = await fetch(`https://www.thesportsdb.com/api/v1/json/1/eventslast.php?id=${teamId}`);
+        const response = await fetch(`https://www.thesportsdb.com/api/v1/json/1/eventsnext.php?id=${teamId}`);
         const json = await response.json();
         this.setState({
-            gameData: json.results,
+            gameData: json.events,
             loading: false
         })
     }
@@ -34,7 +34,7 @@ export default class LatestResults extends React.Component {
 
     render() {
         let mappedData;
-        if (this.state.gameData.length !== null) {
+        if (this.state.gameData !== null) {
             mappedData = this.state.gameData.map(item => {
                 return (
                     <tr key={item.idEvent}>
@@ -55,7 +55,7 @@ export default class LatestResults extends React.Component {
                 )
             })
         } else {
-            mappedData = <tr colSpan='10' className='no-data'><td>There is nothing to show here.</td></tr>
+            mappedData = <tr colSpan='10' className='no-data'><td>There are no upcoming games.</td></tr>
         }
 
         return (
@@ -63,10 +63,10 @@ export default class LatestResults extends React.Component {
                 {this.state.loading ? (
                     <div>Loading...</div>
                 ) : (
-                    <table className='latest-results'>
+                    <table className='upcoming-schedule'>
                         <tbody>
                             <tr>
-                                <th colSpan='10'>Latest Results</th>
+                                <th colSpan='10'>Upcoming Games</th>
                             </tr>
                             {mappedData}
                         </tbody>

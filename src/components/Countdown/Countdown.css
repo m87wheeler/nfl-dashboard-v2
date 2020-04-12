@@ -1,0 +1,39 @@
+.countdown {
+  color: white;
+  height: inherit;
+  width: 80%;
+  margin-left: 20%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 0;
+}
+
+.countdown div {
+  text-align: center;
+  height: inherit;
+}
+
+.countdown div p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.countdown div p:nth-of-type(1) {
+  font-size: 2em;
+  padding: .2em;
+  outline: 0.2em solid #003069;
+  background-color: #d60303;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.48);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.48);
+}
+
+.countdown div p:nth-of-type(2) {
+  font-size: .75em;
+}
+/*# sourceMappingURL=Countdown.css.map */

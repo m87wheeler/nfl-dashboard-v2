@@ -1,0 +1,22 @@
+@import '../SCSS/variables.scss';
+
+.header-banner {
+    position: fixed;
+    width: 72.5vw;
+    height: 12.1vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: $primaryBlue;
+
+    .nfl-logo-container {
+        grid-column: 2 / span 1;
+        display: inline-block;
+        height: inherit;
+        text-align: center;
+
+        img {
+            height: 95%;
+            margin-top: 1%;
+        }
+    }
+}

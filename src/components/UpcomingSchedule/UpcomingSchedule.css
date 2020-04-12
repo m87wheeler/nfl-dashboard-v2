@@ -1,10 +1,10 @@
-table.latest-results {
+table.upcoming-schedule {
   -ms-grid-column: 1;
   -ms-grid-column-span: 8;
   grid-column: 1 / span 8;
-  -ms-grid-row: 2;
+  -ms-grid-row: 4;
   -ms-grid-row-span: 2;
-  grid-row: 2 / span 2;
+  grid-row: 4 / span 2;
   width: calc(100% - 10px);
   height: 100%;
   margin-right: 10px;
@@ -12,22 +12,22 @@ table.latest-results {
   background-color: white;
 }
 
-table.latest-results tbody p.no-data {
+table.upcoming-schedule tbody p.no-data {
   margin-left: 25px;
 }
 
-table.latest-results tbody tr:hover {
+table.upcoming-schedule tbody tr:hover {
   background-color: #f5f5f6;
   cursor: context-menu;
 }
 
-table.latest-results tbody tr {
+table.upcoming-schedule tbody tr {
   text-align: left;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 
-table.latest-results tbody tr th {
+table.upcoming-schedule tbody tr th {
   height: 50px;
   padding-left: 25px;
   font-weight: 400;
@@ -37,60 +37,60 @@ table.latest-results tbody tr th {
   color: white;
 }
 
-table.latest-results tbody tr td {
+table.upcoming-schedule tbody tr td {
   text-align: center;
 }
 
-table.latest-results tbody tr td img {
+table.upcoming-schedule tbody tr td img {
   width: 20px;
 }
 
-table.latest-results tbody tr .date {
-  width: 16%;
+table.upcoming-schedule tbody tr .date {
+  width: 14%;
   text-align: left;
   padding-left: 25px;
   color: rgba(0, 0, 0, 0.6);
   font-size: .9em;
 }
 
-table.latest-results tbody tr .name {
+table.upcoming-schedule tbody tr .name {
   width: 24%;
 }
 
-table.latest-results tbody tr .home-name {
+table.upcoming-schedule tbody tr .home-name {
   text-align: right;
   padding-right: 2%;
 }
 
-table.latest-results tbody tr .away-name {
+table.upcoming-schedule tbody tr .away-name {
   text-align: left;
   padding-left: 2%;
 }
 
-table.latest-results tbody tr .logo {
+table.upcoming-schedule tbody tr .logo {
   width: 4%;
 }
 
-table.latest-results tbody tr .score {
+table.upcoming-schedule tbody tr .score {
   width: 4%;
 }
 
-table.latest-results tbody tr .home-score {
+table.upcoming-schedule tbody tr .home-score {
   text-align: right;
 }
 
-table.latest-results tbody tr .away-score {
+table.upcoming-schedule tbody tr .away-score {
   text-align: left;
 }
 
-table.latest-results tbody tr .hyphen {
+table.upcoming-schedule tbody tr .hyphen {
   width: 3%;
 }
 
-table.latest-results tbody tr .stadium {
-  width: 17%;
+table.upcoming-schedule tbody tr .stadium {
+  width: 19%;
   text-align: left;
   color: rgba(0, 0, 0, 0.6);
   font-size: .9em;
 }
-/*# sourceMappingURL=LatestResults.css.map */
+/*# sourceMappingURL=UpcomingSchedule.css.map */

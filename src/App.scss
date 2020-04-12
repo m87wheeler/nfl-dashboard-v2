@@ -1,15 +1,19 @@
 @import './components/SCSS/variables.scss';
 
-body {
+#app {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25vw 75vw;
+    grid-template-rows: 100vh;
+    grid-template-areas: "sidebar main";
     font-family: 'Roboto';
     font-size: 16px;
     color: $highEmphasis;
+    background-color: $primaryBlue;
 
     h1, h2, h3, h4, h5, h6 {
         color: $highEmphasis;
-    }
-
-    header {
-        background-color: $white;
     }
 }
