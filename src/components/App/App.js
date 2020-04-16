@@ -1,14 +1,14 @@
 import React from 'react'
 import './App.css'
-import Header from './components/Header/Header'
-import MainContent from './components/MainContent/MainContent'
-import Sidebar from './components/Sidebar/Sidebar'
-import Dropdown from './components/Dropdown/Dropdown'
-import TeamBio from './components/TeamBio/TeamBio'
-import LatestResults from './components/LatestResults/LatestResults'
-import UpcomingSchedule from './components/UpcomingSchedule/UpcomingSchedule'
-import QuickStat from './components/QuickStat/QuickStat'
-import PopupWindow from './components/PopupWindow/PopupWindow'
+import Header from '../Header/Header'
+import MainContent from '../MainContent/MainContent'
+import Sidebar from '../Sidebar/Sidebar'
+import Dropdown from '../Dropdown/Dropdown'
+import TeamBio from '../TeamBio/TeamBio'
+import LatestResults from '../LatestResults/LatestResults'
+import UpcomingSchedule from '../UpcomingSchedule/UpcomingSchedule'
+import QuickStat from '../QuickStat/QuickStat'
+import PopupWindow from '../PopupWindow/PopupWindow'
 
 class App extends React.Component {
   constructor() {
